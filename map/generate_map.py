@@ -9,7 +9,8 @@ map = folium.Map(
     tiles='https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}',
     attr='Esri',
     zoom_start = 1,
-    location = [-6.45,-113.72]
+    location = [-6.45,-113.72],
+    zoom_control=False,
 )
 
 traj_points = gpd.read_file(traj_points_path)
