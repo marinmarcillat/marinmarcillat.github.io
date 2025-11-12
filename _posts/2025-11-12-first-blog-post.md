@@ -4,12 +4,9 @@ title: 'First blog post'
 date: '2025-11-12T00:00:00+00:00'
 author: 'Marin Marcillat'
 layout: post
-categories:
-    - Articles
-    - Brico
-tags:
-    - Blog
-    - Bricolage
+categories: [Article, Voyage]
+tags: [test_tag, blog]
+pin: true
 ---
 
 ## This is our first blog post
