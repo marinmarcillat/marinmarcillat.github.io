@@ -32,11 +32,10 @@ description: >-
 github:
   username: marinmarcillat
 social:
-  name: Niklas Heidloff
+  name: Marin Marcillat
   links:
     # The first element serves as the copyright owner's link
-    - https://www.linkedin.com/in/niklasheidloff
-    - https://github.com/nheidloff
+    - https://github.com/marinmarcillat
 
 google_site_verification:               # fill in to your verification string
 # ↑ --------------------------
