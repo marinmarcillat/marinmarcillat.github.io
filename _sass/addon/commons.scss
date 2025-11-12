@@ -905,6 +905,8 @@ $sidebar-display: "sidebar-display";
     .icon-border {
       @extend %no-cursor;
 
+      display: none; // hide the small dot next to the theme toggle
+
       background-color: var(--sidebar-muted-color);
       content: "";
       width: 3px;
@@ -1667,7 +1669,7 @@ $sidebar-display: "sidebar-display";
   #search-wrapper {
     margin-right: calc(#{$main-content-max-width} * 0.25 - #{$search-max-width});
   }
-  
+
 
   #topbar,
   #main,
